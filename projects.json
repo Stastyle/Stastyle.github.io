@@ -1,0 +1,61 @@
+{
+  "_help": "featured = ריפוז שמוצגים ראשונים ובגדול. hide = ריפוז להסתיר. include = ריפוז להציג למרות שהם fork. he = תיאור בעברית לפי שם הריפו (בלי תיאור בעברית יוצג התיאור מ-GitHub). filters = כפתורי הסינון, לפי topics של הריפו. extra = פרויקטים שלא נמצאים ב-GitHub או שהריפו שלהם פרטי; דוגמה למבנה נמצאת ב-_extra_example.",
+
+  "contact": {
+    "email": "stas.meirovich@gmail.com"
+  },
+
+  "featured": [
+    "Local-Summerizer",
+    "ScanAlign",
+    "f360-guitar-frets",
+    "ERDesigner",
+    "copy-to-rtl",
+    "Auto-Tire-Airing"
+  ],
+
+  "hide": [],
+  "include": [],
+
+  "filters": [
+    { "id": "fusion",   "label": { "he": "Fusion 360",      "en": "Fusion 360" },          "topics": ["fusion-addin", "fusion360"], "name": "fusion|f360" },
+    { "id": "hardware", "label": { "he": "חומרה וקושחה",    "en": "Hardware & firmware" }, "topics": ["arduino", "embedded", "esp32", "firmware"] },
+    { "id": "mobile",   "label": { "he": "מובייל",          "en": "Mobile" },              "topics": ["android", "flutter", "pwa", "ios"] },
+    { "id": "web",      "label": { "he": "ווב ותוספי דפדפן", "en": "Web & extensions" },    "topics": ["web-app", "chrome-extension", "landing-page", "visualization"] },
+    { "id": "desktop",  "label": { "he": "דסקטופ",          "en": "Desktop" },             "topics": ["electron", "wpf", "dotnet", "gui"] },
+    { "id": "hebrew",   "label": { "he": "עברית ו-RTL",     "en": "Hebrew & RTL" },        "topics": ["hebrew", "rtl"] }
+  ],
+
+  "he": {
+    "fusion-addins": "קטלוג התוספים שלי ל-Autodesk Fusion. מתעדכן לבד מכל ריפו שמתויג fusion-addin.",
+    "f360-guitar-frets": "תוסף ל-Fusion 360 שבונה לוח סריגים (פרטבורד) מוכן לחיתוך מדיאלוג אחד: גוף מתחדד, חריצי סריגים במיקום מדויק, סקאלה רגילה או מולטי-סקייל.",
+    "Fast-Zero": "אפליקציית PWA בעברית שעוזרת באיפוס רובה על מטרת 25 מ' תקנית: מצלמים את המקבץ ומקבלים הנחיות תיקון.",
+    "Local-Summerizer": "אפליקציית אנדרואיד שמתמללת הקלטות של פגישות עם whisper.cpp ומסכמת אותן בעברית עם llama.cpp. הכול רץ על המכשיר, בלי רשת.",
+    "Guitar-Wood-Selector": "לראות איך חתיכת עץ תיראה על הגיטרה לפני שחותכים: מתאימים קטע מהלוח לקו המתאר של הגוף בקנה מידה אמיתי.",
+    "ERDesigner": "אפליקציית ווב בקובץ אחד, בלי התקנה, לבנייה ולעריכה חזותית של תרשימי ERD. פותחים את index.html ומתחילים.",
+    "tab-recorder": "תוסף Chrome MV3 שמקליט את האודיו של לשונית ל-WebM/Opus, עם שמירה לדיסק שעמידה בפני קריסות.",
+    "copy-to-rtl": "מנטר את לוח ההעתקה ומציג את הטקסט שהועתק מימין לשמאל, כדי שעברית תישאר קריאה.",
+    "ScanAlign": "מיישר קובצי סריקה תלת־ממדית (OBJ/PLY/STL) לצירי XYZ ולראשית, לייבוא נקי ל-CAD. אפליקציית Windows שנכתבה ב-WPF.",
+    "ai-rtl": "תוסף Chrome שמיישר מימין לשמאל את ההודעות בצ'אטים של AI (Gemini, Claude, ChatGPT).",
+    "openu-industrial-engineering-management-courses": "תרשים אינטראקטיבי של תלויות הקורסים בתואר בהנדסת תעשייה וניהול באוניברסיטה הפתוחה.",
+    "go-to-app": "אפליקציית מצפן פשוטה שמצביעה ליעדים שהגדרת, בלי שרת. נכתבה ב-Flutter לאנדרואיד ולווב במובייל.",
+    "yanai-p": "דף נחיתה בעברית לחברת כוח אדם מורשית בענף הבנייה.",
+    "Gifter": "Payback: ארנק חברתי למעקב אחרי הוצאות משותפות בין חברים ולסגירת החשבון ביניהם.",
+    "PDF-Data-Injector": "אפליקציית דסקטופ שממקמת נתוני אקסל על תבנית PDF בצורה חזותית ומפיקה את כל הקבצים המלאים בבת אחת.",
+    "PDF-Renamer": "שינוי שמות לכל קובצי ה-PDF בתיקייה בבת אחת.",
+    "GPS-home-direction": "קושחה למכשיר GPS שמצביע חזרה לנקודת בית שמורה.",
+    "ATA-Auto-Tire-Airing-Remote": "שלט בלוטות' למערכת Auto Tire Airing: Arduino Pro Micro, מודול HC-05 ומסך OLED 128x32.",
+    "Auto-Tire-Airing": "היחידה הראשית של מערכת לניפוח צמיגים אוטומטי לרכבי שטח: Arduino Pro Micro, קישור בלוטות' HC-05 ומסך OLED 128x64."
+  },
+
+  "extra": [],
+
+  "_extra_example": [
+    {
+      "title": { "he": "שם הפרויקט", "en": "Project name" },
+      "description": { "he": "משפט אחד על מה שהוא עושה.", "en": "One sentence about what it does." },
+      "status": "building",
+      "url": "https://example.com"
+    }
+  ]
+}
